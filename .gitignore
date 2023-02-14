@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+Client/Default/x64
+Server/Default/x64

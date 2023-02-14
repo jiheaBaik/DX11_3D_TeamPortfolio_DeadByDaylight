@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{8bfeccae-fcf5-46e9-ac15-185f1e246c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Define">
+      <UniqueIdentifier>{4066e55a-f149-4553-be79-1c5be9a880b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Network">
+      <UniqueIdentifier>{d8579483-e741-497d-950d-f5254c0b6d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{d2202186-643d-43f2-b47c-d674b1c93f90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Network.cpp">
+      <Filter>00.Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\json\jsoncpp.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Server_Define.h">
+      <Filter>99.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Network.h">
+      <Filter>00.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\json\json.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\json\json-forwards.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
