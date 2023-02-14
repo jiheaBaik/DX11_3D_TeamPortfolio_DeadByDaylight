@@ -1,0 +1,412 @@
+{
+   "EndTime" : 9999.0,
+   "Loop" : true,
+   "MainLook" : false,
+   "Node" : [
+      {
+         "Accel" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "AlphaFrame" : 0,
+         "AlphaValue" : 0.10000000149011612,
+         "CreateTime" : 1.2152470350265503,
+         "DeleteTime" : 11.877803802490234,
+         "Dir" : {
+            "x" : 0.0,
+            "y" : 142.25987243652344,
+            "z" : 0.0
+         },
+         "DirType" : false,
+         "DiscardAlpha" : 0.0,
+         "DissolveTime" : 0.0,
+         "Distortion" : [
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            },
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            },
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            },
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            }
+         ],
+         "Divide" : {
+            "x" : 8.0,
+            "y" : 8.0
+         },
+         "EndPos" : {
+            "x" : -1304.2896728515625,
+            "y" : 974.74896240234375,
+            "z" : 0.082553178071975708
+         },
+         "EndRot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndScale" : {
+            "x" : 166.0,
+            "y" : 400.0,
+            "z" : 100.0
+         },
+         "Fix" : false,
+         "FixUV" : {
+            "x" : 0.0,
+            "y" : 0.0
+         },
+         "FlowUV" : {
+            "x" : 0.0,
+            "y" : 0.0
+         },
+         "FrameLoop" : true,
+         "FrameSpeed" : 0.0,
+         "Glow" : {
+            "x" : 0.0,
+            "y" : 0.0
+         },
+         "Gravity" : 0.0,
+         "IsLimitPos" : false,
+         "IsRandAccel" : false,
+         "IsRandCreateTime" : true,
+         "IsRandDir" : false,
+         "IsRandEndPos" : true,
+         "IsRandEndRot" : false,
+         "IsRandEndScale" : false,
+         "IsRandPos" : true,
+         "IsRandProgressTime" : true,
+         "IsRandResist" : false,
+         "IsRandResistPower" : false,
+         "IsRandRot" : false,
+         "IsRandScale" : false,
+         "LimitPos" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "LookCam" : false,
+         "Model" : [ "", "" ],
+         "Move" : true,
+         "OtherSpeed" : 0.05000000074505806,
+         "OtherSpeedFrame" : 0,
+         "PhysicsMove" : false,
+         "Pos" : {
+            "x" : -1293.208740234375,
+            "y" : -935.59222412109375,
+            "z" : 0.039999999105930328
+         },
+         "Proj" : true,
+         "RandAccelMaxRange" : [
+            null,
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandAccelMinRange" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandCreateTimeRange" : {
+            "Max" : 10.0,
+            "Min" : 0.0
+         },
+         "RandDirMaxRange" : [
+            null,
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandDirMinRange" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandPos" : [
+            {
+               "x" : -1310.0,
+               "y" : -950.0,
+               "z" : 0.039999999105930328
+            },
+            {
+               "x" : -1290.0,
+               "y" : -900.0,
+               "z" : 0.039999999105930328
+            }
+         ],
+         "RandPosMaxRange" : [
+            null,
+            {
+               "x" : -1300.0,
+               "y" : 1100.0,
+               "z" : 0.039999999105930328
+            }
+         ],
+         "RandPosMinRange" : [
+            {
+               "x" : -1310.0,
+               "y" : 970.0,
+               "z" : 0.039999999105930328
+            }
+         ],
+         "RandProgressTimeRange" : {
+            "Max" : 12.0,
+            "Min" : 8.0
+         },
+         "RandResistMaxRange" : [
+            null,
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            }
+         ],
+         "RandResistMinRange" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            }
+         ],
+         "RandResistPowerMaxRange" : [ null, 0.0 ],
+         "RandResistPowerMinRange" : [ 0.0 ],
+         "RandRot" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandRotMaxRange" : [
+            null,
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandRotMinRange" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandScale" : [
+            {
+               "x" : 1400.0,
+               "y" : 500.0,
+               "z" : 1.0
+            },
+            {
+               "x" : 1600.0,
+               "y" : 700.0,
+               "z" : 1.0
+            }
+         ],
+         "RandScaleMaxRange" : [
+            null,
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandScaleMinRange" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RenderIndex" : 10,
+         "Resist" : {
+            "x" : 0.0,
+            "y" : 0.0
+         },
+         "ResistPower" : 0.0,
+         "ReverseAlpha" : false,
+         "Rot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1530.4483642578125,
+            "y" : 549.67803955078125,
+            "z" : 1.0
+         },
+         "ScrollSpeed" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "SetAccel" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderColor" : {
+            "w" : 0.10000000149011612,
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderIdx" : 0,
+         "ShaderPass" : 19,
+         "ShaderPlusColor" : {
+            "w" : 0.0,
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Texture" : [ "T_smoke_flipbook_8x8", "", "", "", "" ],
+         "isGravity" : false,
+         "isRotX" : [ false, false, false ],
+         "vecScale" : [
+            {
+               "FrameTime" : 0.0,
+               "IsRandScale" : true,
+               "IsRandTime" : false,
+               "RandScale" : [
+                  {
+                     "x" : 900.0,
+                     "y" : 550.0,
+                     "z" : 1.0
+                  },
+                  {
+                     "x" : 1000.0,
+                     "y" : 650.0,
+                     "z" : 1.0
+                  }
+               ],
+               "RandTime" : {
+                  "x" : 0.0,
+                  "y" : 0.0
+               },
+               "Scale" : {
+                  "x" : 901.22686767578125,
+                  "y" : 555.35296630859375,
+                  "z" : 1.0
+               }
+            },
+            {
+               "FrameTime" : 3.9913785457611084,
+               "IsRandScale" : true,
+               "IsRandTime" : true,
+               "RandScale" : [
+                  {
+                     "x" : 150.0,
+                     "y" : 550.0,
+                     "z" : 1.0
+                  },
+                  {
+                     "x" : 250.0,
+                     "y" : 650.0,
+                     "z" : 1.0
+                  }
+               ],
+               "RandTime" : {
+                  "x" : 3.5,
+                  "y" : 4.0
+               },
+               "Scale" : {
+                  "x" : 238.79055786132812,
+                  "y" : 565.253173828125,
+                  "z" : 1.0
+               }
+            },
+            {
+               "FrameTime" : 6.9647970199584961,
+               "IsRandScale" : true,
+               "IsRandTime" : true,
+               "RandScale" : [
+                  {
+                     "x" : 100.0,
+                     "y" : 550.0,
+                     "z" : 1.0
+                  },
+                  {
+                     "x" : 200.0,
+                     "y" : 650.0,
+                     "z" : 1.0
+                  }
+               ],
+               "RandTime" : {
+                  "x" : 6.5,
+                  "y" : 7.0
+               },
+               "Scale" : {
+                  "x" : 147.8621826171875,
+                  "y" : 555.73748779296875,
+                  "z" : 1.0
+               }
+            },
+            {
+               "FrameTime" : 12.0,
+               "IsRandScale" : true,
+               "IsRandTime" : false,
+               "RandScale" : [
+                  {
+                     "x" : 1400.0,
+                     "y" : 500.0,
+                     "z" : 1.0
+                  },
+                  {
+                     "x" : 1600.0,
+                     "y" : 700.0,
+                     "z" : 1.0
+                  }
+               ],
+               "RandTime" : {
+                  "x" : 0.0,
+                  "y" : 0.0
+               },
+               "Scale" : {
+                  "x" : 1493.8016357421875,
+                  "y" : 690.56365966796875,
+                  "z" : 1.0
+               }
+            }
+         ]
+      }
+   ],
+   "PosX" : 0.0,
+   "PosY" : 0.0,
+   "ProgressLoop" : true,
+   "Sorting" : false,
+   "Z_Sorting" : false,
+   "sizeX" : 0.0,
+   "sizeY" : 0.0
+}

@@ -1,0 +1,226 @@
+{
+   "EndTime" : 5.0,
+   "Loop" : true,
+   "Node" : [
+      {
+         "Accel" : {
+            "x" : 0.0,
+            "y" : 1.0,
+            "z" : 0.0
+         },
+         "AlphaFrame" : 0,
+         "AlphaValue" : 0.0,
+         "CreateTime" : 0.0,
+         "DeleteTime" : 3.0,
+         "Dir" : {
+            "x" : -0.36588859558105469,
+            "y" : 2.4085278511047363,
+            "z" : 0.0
+         },
+         "DirType" : true,
+         "DiscardAlpha" : 0.0,
+         "DissolveTime" : 0.0,
+         "Distortion" : [
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            },
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            },
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            },
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            }
+         ],
+         "Divide" : {
+            "x" : 1.0,
+            "y" : 1.0
+         },
+         "EndPos" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndRot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "FixUV" : {
+            "x" : 0.0,
+            "y" : 0.0
+         },
+         "FrameSpeed" : 0.0,
+         "Gravity" : 0.0,
+         "LookCam" : true,
+         "Move" : true,
+         "OtherSpeed" : 0.0,
+         "OtherSpeedFrame" : 0,
+         "PhysicsMove" : false,
+         "Pos" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Proj" : false,
+         "RandEndPos" : false,
+         "RandEndRot" : false,
+         "RandEndScale" : false,
+         "RandPosMaxRange" : [
+            null,
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandPosMinRange" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandRotMaxRange" : [
+            null,
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandRotMinRange" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandScaleMaxRange" : [
+            null,
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RandScaleMinRange" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            }
+         ],
+         "RenderIndex" : 7,
+         "Resist" : {
+            "x" : -2.0,
+            "y" : -2.0
+         },
+         "ResistPower" : 0.99000000953674316,
+         "ReverseAlpha" : false,
+         "Rot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 0.05000000074505806,
+            "y" : 0.05000000074505806,
+            "z" : 0.05000000074505806
+         },
+         "ScrollSpeed" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "SetAccel" : {
+            "x" : 0.0,
+            "y" : 1.0,
+            "z" : 0.0
+         },
+         "ShaderColor" : {
+            "w" : 0.0,
+            "x" : 2.75,
+            "y" : 0.23999999463558197,
+            "z" : 0.059999998658895493
+         },
+         "ShaderPass" : 4,
+         "ShaderScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Texture" : [ "T_Spark_Base_01", "", "", "", "" ],
+         "isGravity" : false,
+         "isRotX" : [ false, false, false ],
+         "vecAlpha" : [
+            {
+               "Alpha" : 0.10000000149011612,
+               "FrameTime" : 0.0
+            },
+            {
+               "Alpha" : 3.0,
+               "FrameTime" : 0.5
+            },
+            {
+               "Alpha" : 0.10000000149011612,
+               "FrameTime" : 1.0
+            },
+            {
+               "Alpha" : 3.0,
+               "FrameTime" : 1.5
+            },
+            {
+               "Alpha" : 0.10000000149011612,
+               "FrameTime" : 2.0
+            },
+            {
+               "Alpha" : 3.0,
+               "FrameTime" : 5.0
+            }
+         ],
+         "vecDir" : [
+            {
+               "Dir" : {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : 0.0
+               },
+               "FrameTime" : 0.0
+            },
+            {
+               "Dir" : {
+                  "x" : -2.0,
+                  "y" : 2.0,
+                  "z" : 0.0
+               },
+               "FrameTime" : 1.0
+            },
+            {
+               "Dir" : {
+                  "x" : 2.0,
+                  "y" : 3.0,
+                  "z" : 0.0
+               },
+               "FrameTime" : 2.0
+            }
+         ]
+      }
+   ],
+   "PosX" : 0.0,
+   "PosY" : 0.0,
+   "ProgressLoop" : false,
+   "sizeX" : 0.0,
+   "sizeY" : 0.0
+}

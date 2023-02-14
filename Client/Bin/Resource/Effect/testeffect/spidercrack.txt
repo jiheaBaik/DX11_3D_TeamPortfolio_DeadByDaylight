@@ -1,0 +1,95 @@
+{
+   "EndTime" : 1000.0,
+   "Loop" : false,
+   "Node" : [
+      {
+         "AlphaFrame" : 0,
+         "AlphaValue" : 0.55000001192092896,
+         "CreateTime" : 0.0,
+         "DeleteTime" : 1000.0,
+         "DiscardAlpha" : 0.0,
+         "DissolveTime" : 5.0,
+         "Distortion" : [
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            },
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            },
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            },
+            {
+               "x" : 0.10000000149011612,
+               "y" : 0.10000000149011612
+            }
+         ],
+         "Divide" : {
+            "x" : 1.0,
+            "y" : 1.0
+         },
+         "EndPos" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndRot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "FrameSpeed" : 0.0,
+         "Move" : false,
+         "OtherSpeed" : 0.0,
+         "OtherSpeedFrame" : 0,
+         "Pos" : {
+            "x" : 640.0,
+            "y" : -360.0,
+            "z" : 1.0
+         },
+         "Proj" : true,
+         "RenderIndex" : 1,
+         "ReverseAlpha" : true,
+         "Rot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1280.0,
+            "y" : 720.0,
+            "z" : 0.5
+         },
+         "ScrollSpeed" : {
+            "x" : 0.10000000149011612,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderColor" : {
+            "w" : 0.0,
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderPass" : 6,
+         "ShaderScale" : {
+            "x" : 5.3000001907348633,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Texture" : [ "T_PP_LightningRGB_A", "", "T_BurnedEmbers", "T_Square_Glow2", "" ]
+      }
+   ],
+   "PosX" : 0.0,
+   "PosY" : 0.0,
+   "sizeX" : 0.0,
+   "sizeY" : 0.0
+}

@@ -1,0 +1,414 @@
+{
+   "EndTime" : 30.0,
+   "Loop" : false,
+   "Node" : [
+      {
+         "Accel" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "AlphaFrame" : 15,
+         "AlphaValue" : 1.0,
+         "CreateTime" : 0.0,
+         "DeleteTime" : 2.0,
+         "DiscardAlpha" : 0.0,
+         "DissolveTime" : 3.0,
+         "Distortion" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            }
+         ],
+         "Divide" : {
+            "x" : 4.0,
+            "y" : 4.0
+         },
+         "EndPos" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndRot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "FrameSpeed" : 0.019999999552965164,
+         "Move" : false,
+         "OtherSpeed" : 0.079999998211860657,
+         "OtherSpeedFrame" : 5,
+         "PhysicsMove" : false,
+         "Pos" : {
+            "x" : 836.0,
+            "y" : -295.0,
+            "z" : 1.0
+         },
+         "Proj" : true,
+         "RenderIndex" : 1,
+         "Resist" : {
+            "x" : 0.0,
+            "y" : 0.0
+         },
+         "ResistPower" : 0.0,
+         "ReverseAlpha" : false,
+         "Rot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 900.0,
+            "y" : 400.0,
+            "z" : 1.0
+         },
+         "ScrollSpeed" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "SetAccel" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderColor" : {
+            "w" : 0.0,
+            "x" : 0.69999998807907104,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderPass" : 4,
+         "ShaderScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Texture" : [ "T_BloodSlash_2", "", "", "", "" ]
+      },
+      {
+         "Accel" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "AlphaFrame" : 15,
+         "AlphaValue" : 1.0,
+         "CreateTime" : 0.019999999552965164,
+         "DeleteTime" : 2.0,
+         "DiscardAlpha" : 0.0,
+         "DissolveTime" : 3.0,
+         "Distortion" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            }
+         ],
+         "Divide" : {
+            "x" : 4.0,
+            "y" : 4.0
+         },
+         "EndPos" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndRot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "FrameSpeed" : 0.019999999552965164,
+         "Move" : false,
+         "OtherSpeed" : 0.079999998211860657,
+         "OtherSpeedFrame" : 5,
+         "PhysicsMove" : false,
+         "Pos" : {
+            "x" : 24.0,
+            "y" : -297.0,
+            "z" : 1.0
+         },
+         "Proj" : true,
+         "RenderIndex" : 1,
+         "Resist" : {
+            "x" : 0.0,
+            "y" : 0.0
+         },
+         "ResistPower" : 0.0,
+         "ReverseAlpha" : false,
+         "Rot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1200.0,
+            "y" : 600.0,
+            "z" : 1.0
+         },
+         "ScrollSpeed" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "SetAccel" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderColor" : {
+            "w" : 0.0,
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderPass" : 3,
+         "ShaderScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Texture" : [ "T_BloodSlash_4", "", "", "", "" ]
+      },
+      {
+         "Accel" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "AlphaFrame" : 15,
+         "AlphaValue" : 1.0,
+         "CreateTime" : 0.039999999105930328,
+         "DeleteTime" : 2.0,
+         "DiscardAlpha" : 0.0,
+         "DissolveTime" : 3.0,
+         "Distortion" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            }
+         ],
+         "Divide" : {
+            "x" : 4.0,
+            "y" : 4.0
+         },
+         "EndPos" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndRot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "FrameSpeed" : 0.019999999552965164,
+         "Move" : false,
+         "OtherSpeed" : 0.079999998211860657,
+         "OtherSpeedFrame" : 5,
+         "PhysicsMove" : false,
+         "Pos" : {
+            "x" : 693.0,
+            "y" : -19.0,
+            "z" : 1.0
+         },
+         "Proj" : true,
+         "RenderIndex" : 1,
+         "Resist" : {
+            "x" : 0.0,
+            "y" : 0.0
+         },
+         "ResistPower" : 0.0,
+         "ReverseAlpha" : false,
+         "Rot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 800.0,
+            "y" : 400.0,
+            "z" : 1.0
+         },
+         "ScrollSpeed" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "SetAccel" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderColor" : {
+            "w" : 0.0,
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderPass" : 3,
+         "ShaderScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Texture" : [ "T_BloodSplatter_Angled_3", "", "", "", "" ]
+      },
+      {
+         "Accel" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "AlphaFrame" : 15,
+         "AlphaValue" : 1.0,
+         "CreateTime" : 0.039999999105930328,
+         "DeleteTime" : 2.0,
+         "DiscardAlpha" : 0.0,
+         "DissolveTime" : 3.0,
+         "Distortion" : [
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            {
+               "x" : 0.0,
+               "y" : 0.0
+            }
+         ],
+         "Divide" : {
+            "x" : 4.0,
+            "y" : 4.0
+         },
+         "EndPos" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndRot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "EndScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "FrameSpeed" : 0.019999999552965164,
+         "Move" : false,
+         "OtherSpeed" : 0.079999998211860657,
+         "OtherSpeedFrame" : 5,
+         "PhysicsMove" : false,
+         "Pos" : {
+            "x" : 876.0,
+            "y" : -541.0,
+            "z" : 1.0
+         },
+         "Proj" : true,
+         "RenderIndex" : 1,
+         "Resist" : {
+            "x" : 0.0,
+            "y" : 0.0
+         },
+         "ResistPower" : 0.0,
+         "ReverseAlpha" : false,
+         "Rot" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 550.0,
+            "y" : 400.0,
+            "z" : 1.0
+         },
+         "ScrollSpeed" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "SetAccel" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderColor" : {
+            "w" : 0.0,
+            "x" : 1.5,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "ShaderPass" : 4,
+         "ShaderScale" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Texture" : [ "T_BloodSplatter_Angled_5", "", "", "", "" ]
+      }
+   ],
+   "PosX" : 0.0,
+   "PosY" : 0.0,
+   "sizeX" : 0.0,
+   "sizeY" : 0.0
+}
