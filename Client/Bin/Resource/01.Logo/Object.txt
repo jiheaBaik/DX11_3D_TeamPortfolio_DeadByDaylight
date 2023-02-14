@@ -1,0 +1,509 @@
+[
+   {
+      "Depth" : 9,
+      "Name" : "Effect_LogoParticle",
+      "Transform" : {
+         "Matrix" : {
+            "0" : {
+               "0" : 1.0,
+               "1" : 0.0,
+               "2" : 0.0,
+               "3" : 0.0
+            },
+            "1" : {
+               "0" : 0.0,
+               "1" : 1.0,
+               "2" : 0.0,
+               "3" : 0.0
+            },
+            "2" : {
+               "0" : 0.0,
+               "1" : 0.0,
+               "2" : 1.0,
+               "3" : 0.0
+            },
+            "3" : {
+               "0" : 0.0,
+               "1" : 0.0,
+               "2" : 0.0,
+               "3" : 1.0
+            }
+         }
+      }
+   },
+   {
+      "Color" : {
+         "w" : 1.0,
+         "x" : 1.0,
+         "y" : 0.0,
+         "z" : 0.0
+      },
+      "Depth" : 0,
+      "GroupIdx" : -1,
+      "IsActive" : true,
+      "Name" : "Logo_Back",
+      "Pass" : 1,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 1600.0,
+            "y" : 900.0
+         }
+      },
+      "Type" : 0
+   },
+   {
+      "Color" : {
+         "w" : 0.0,
+         "x" : 1.0,
+         "y" : 1.0,
+         "z" : 1.0
+      },
+      "Depth" : 10,
+      "GroupIdx" : -1,
+      "IsActive" : false,
+      "Name" : "Logo_Back",
+      "Pass" : 1,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 1600.0,
+            "y" : 900.0
+         }
+      },
+      "Type" : 1
+   },
+   {
+      "Color" : {
+         "w" : 0.69999998807907104,
+         "x" : 0.69999998807907104,
+         "y" : 0.69999998807907104,
+         "z" : 0.69999998807907104
+      },
+      "Depth" : 2,
+      "GroupIdx" : -1,
+      "IsActive" : true,
+      "Name" : "Logo_BackSmoke",
+      "Pass" : 1,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 1600.0,
+            "y" : 900.0
+         }
+      }
+   },
+   {
+      "Color" : {
+         "w" : 1.0,
+         "x" : 1.0,
+         "y" : 1.0,
+         "z" : 1.0
+      },
+      "Depth" : 9,
+      "GroupIdx" : -1,
+      "IsActive" : true,
+      "Name" : "Logo_Logo",
+      "Pass" : 1,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 0.0,
+            "y" : -15.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 7.0,
+            "y" : 3.5,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 100.0,
+            "y" : 100.0
+         }
+      }
+   },
+   {
+      "Color" : {
+         "w" : 1.0,
+         "x" : 1.0,
+         "y" : 1.0,
+         "z" : 1.0
+      },
+      "Depth" : 2,
+      "GroupIdx" : -1,
+      "IsActive" : true,
+      "Name" : "Logo_Smoke",
+      "Pass" : 3,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 1600.0,
+            "y" : 900.0
+         }
+      }
+   },
+   {
+      "Color" : {
+         "w" : 1.0,
+         "x" : 1.0,
+         "y" : 1.0,
+         "z" : 1.0
+      },
+      "Depth" : 4,
+      "GroupIdx" : -1,
+      "IsActive" : true,
+      "Name" : "Logo_Smoke2",
+      "Pass" : 3,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 1600.0,
+            "y" : 900.0
+         }
+      }
+   },
+   {
+      "Color" : {
+         "w" : 1.0,
+         "x" : 1.0,
+         "y" : 1.0,
+         "z" : 1.0
+      },
+      "Depth" : 3,
+      "GroupIdx" : -1,
+      "IsActive" : true,
+      "Name" : "Logo_Smoke3",
+      "Pass" : 3,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 1600.0,
+            "y" : 900.0
+         }
+      }
+   },
+   {
+      "Color" : {
+         "w" : 1.0,
+         "x" : 1.0,
+         "y" : 1.0,
+         "z" : 1.0
+      },
+      "Depth" : 8,
+      "GroupIdx" : -1,
+      "IsActive" : true,
+      "Name" : "Logo_Smoke4",
+      "Pass" : 3,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 1600.0,
+            "y" : 900.0
+         }
+      }
+   },
+   {
+      "Color" : {
+         "w" : 1.0,
+         "x" : 1.0,
+         "y" : 0.0,
+         "z" : 0.0
+      },
+      "Depth" : 3,
+      "GroupIdx" : -1,
+      "IsActive" : true,
+      "Name" : "Logo_Smoke5",
+      "Pass" : 3,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 1600.0,
+            "y" : 900.0
+         }
+      }
+   },
+   {
+      "Color" : {
+         "w" : 1.0,
+         "x" : 1.0,
+         "y" : 1.0,
+         "z" : 1.0
+      },
+      "Depth" : 9,
+      "GroupIdx" : -1,
+      "IsActive" : true,
+      "Name" : "Logo_Text",
+      "Pass" : 1,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 0.0,
+            "y" : 280.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 199.08000183105469,
+            "y" : 19.0
+         }
+      }
+   },
+   {
+      "Color" : {
+         "w" : 1.0,
+         "x" : 1.0,
+         "y" : 1.0,
+         "z" : 1.0
+      },
+      "Depth" : 9,
+      "GroupIdx" : -1,
+      "IsActive" : true,
+      "Name" : "Logo_Title",
+      "Pass" : 1,
+      "RectTransform" : {
+         "Anchor" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Pivot" : {
+            "x" : 0.5,
+            "y" : 0.5
+         },
+         "Position" : {
+            "x" : 30.0,
+            "y" : 350.0,
+            "z" : 0.0
+         },
+         "Rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+         },
+         "Scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "SclByParent" : true,
+         "Size" : {
+            "x" : 320.0,
+            "y" : 45.0
+         }
+      }
+   }
+]

@@ -1,0 +1,190 @@
+{
+   "Lists" : [
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 355.0,
+               "y" : 479.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_choice_icon_cam_dwi"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 358.0,
+               "y" : 478.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_choice_icon_cam_meg"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 356.0,
+               "y" : 478.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_choice_icon_cam_bill"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 356.0,
+               "y" : 478.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_choice_icon_cam_cheryl"
+      }
+   ],
+   "Name" : "UI_Lobby_Btn_Camper_Choice",
+   "Sort Idx" : -1
+}

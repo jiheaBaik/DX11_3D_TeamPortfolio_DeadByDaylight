@@ -1,0 +1,1670 @@
+{
+   "Lists" : [
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 488.0,
+               "y" : 533.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_back2"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 357.0,
+               "y" : 122.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla1"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 399.0,
+               "y" : 123.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla2"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 292.0,
+               "y" : 123.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla3"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 260.0,
+               "y" : 147.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla4"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 419.0,
+               "y" : 171.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla5"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 377.0,
+               "y" : 171.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla6"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 427.0,
+               "y" : 123.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla7"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 298.0,
+               "y" : 171.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla8"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 354.0,
+               "y" : 147.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla9"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 336.0,
+               "y" : 171.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla10"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 403.0,
+               "y" : 122.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla11"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 394.0,
+               "y" : 146.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_exp_sla12"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 0.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : -1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : -25.0,
+               "y" : -20.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 525.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_layout_skill"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_skill",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_skill"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_skill",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 122.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_skill"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_skill",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 244.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_skill"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_skill",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 366.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_skill"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 0.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : -1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Position" : {
+               "x" : -10.0,
+               "y" : -10.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 575.0,
+               "y" : 253.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_layout_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 120.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 240.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 360.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 60.0,
+               "y" : 68.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 180.0,
+               "y" : 68.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 300.0,
+               "y" : 68.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 420.0,
+               "y" : 68.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 136.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 120.0,
+               "y" : 136.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 240.0,
+               "y" : 136.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "Texture_loadout_layout_inven",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 360.0,
+               "y" : 136.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 102.0,
+               "y" : 102.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_icon_inven"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 0,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 300.0,
+               "y" : 60.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 103.0,
+               "y" : 26.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_name_huntress"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 0,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 300.0,
+               "y" : 60.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 77.0,
+               "y" : 26.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_name_spirit"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 0,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 300.0,
+               "y" : 60.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 138.0,
+               "y" : 26.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_name_cheryl"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 0,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 300.0,
+               "y" : 60.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 107.0,
+               "y" : 26.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_name_bill"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 0,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 300.0,
+               "y" : 60.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 216.0,
+               "y" : 26.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_name_dwight"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 0,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 300.0,
+               "y" : 60.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.83333337306976318,
+               "y" : 0.83333337306976318,
+               "z" : 0.83333337306976318
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 136.0,
+               "y" : 26.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_loadout_name_meg"
+      }
+   ],
+   "Name" : "UI_Lobby_Panel_Loadout",
+   "Sort Idx" : -1
+}

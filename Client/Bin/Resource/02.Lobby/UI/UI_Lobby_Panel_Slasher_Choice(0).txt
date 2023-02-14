@@ -1,0 +1,98 @@
+{
+   "Lists" : [
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 70.0,
+               "y" : 90.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.40000000596046448,
+               "y" : 0.40000000596046448,
+               "z" : 0.40000000596046448
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 360.0,
+               "y" : 491.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_choice_icon_sla_huntress"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 233.69999694824219,
+               "y" : 93.769996643066406,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 0.40000000596046448,
+               "y" : 0.40000000596046448,
+               "z" : 0.40000000596046448
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 350.0,
+               "y" : 485.760009765625
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_choice_icon_sla_spirit"
+      }
+   ],
+   "Name" : "UI_Lobby_Panel_Slasher_Choice",
+   "Sort Idx" : -1
+}

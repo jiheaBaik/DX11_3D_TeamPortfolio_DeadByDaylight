@@ -1,0 +1,236 @@
+{
+   "Lists" : [
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 0.5,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 0,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 20.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 200.0,
+               "y" : 130.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_sel_icon_bridge"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 69.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 30.0,
+               "y" : 40.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_sel_icon_arrow"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 2,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 3.0,
+               "y" : 2.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 50.0,
+               "y" : 50.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_sel_icon_second"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Parent" : "This",
+         "Pass" : 0,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 1.0,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 1.0
+            },
+            "Position" : {
+               "x" : 30.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : false,
+            "Size" : {
+               "x" : 383.0,
+               "y" : 75.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_text_exp_loadout"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 5,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 2,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 100.0,
+               "y" : 100.0
+            }
+         },
+         "ScaleOfTex" : false,
+         "Texture" : "Texture_sel_btn_frm"
+      }
+   ],
+   "Name" : "UI_Lobby_Btn_Slasher_Menu",
+   "Sort Idx" : 1
+}
