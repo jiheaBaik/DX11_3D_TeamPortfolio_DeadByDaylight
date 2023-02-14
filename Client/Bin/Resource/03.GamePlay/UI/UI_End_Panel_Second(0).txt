@@ -1,0 +1,138 @@
+{
+   "Lists" : [
+      {
+         "Color" : {
+            "w" : 0.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 0,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 1600.0,
+               "y" : 900.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_end_sec_first"
+      },
+      {
+         "Color" : {
+            "w" : 0.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Pivot" : {
+               "x" : 0.0,
+               "y" : 0.0
+            },
+            "Position" : {
+               "x" : 62.0,
+               "y" : 90.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 46.0,
+               "y" : 24.030000686645508
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_end_sec_sec"
+      },
+      {
+         "Color" : {
+            "w" : 0.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 2,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 1600.0,
+               "y" : 900.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_end_sec_third"
+      }
+   ],
+   "Name" : "UI_End_Panel_Second",
+   "Sort Idx" : -1
+}

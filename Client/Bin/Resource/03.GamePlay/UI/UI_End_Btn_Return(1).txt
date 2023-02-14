@@ -1,0 +1,372 @@
+{
+   "Lists" : [
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 0,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 0.9100000262260437,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 95.0,
+               "y" : 95.0
+            }
+         },
+         "ScaleOfTex" : false,
+         "Texture" : "Texture_end_btn_frame"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 42.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 3.0,
+               "y" : 60.0
+            }
+         },
+         "ScaleOfTex" : false,
+         "Texture" : "Texture_end_btn_icon"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 2,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 1.0,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 1.0,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : -80.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 40.0,
+               "y" : 130.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_end_btn_return_fx2"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 2,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 1.0,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 1.0,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : -95.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 40.0,
+               "y" : 120.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_end_btn_return_fx2"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 2,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 1.0,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 1.0,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : -110.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 40.0,
+               "y" : 110.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_end_btn_return_fx2"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 2,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 1.0,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 1.0,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : -125.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 40.0,
+               "y" : 100.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_end_btn_return_fx2"
+      },
+      {
+         "ActByParent" : true,
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 2,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Parent" : "This",
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 1.0,
+               "y" : 0.5
+            },
+            "Pivot" : {
+               "x" : 1.0,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : -140.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 40.0,
+               "y" : 90.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_end_btn_return_fx2"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 3,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 1.0,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 1.0,
+               "y" : 1.0
+            },
+            "Position" : {
+               "x" : -283.0,
+               "y" : -55.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 32.0,
+               "y" : 17.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_end_btn_txt_watch"
+      }
+   ],
+   "Name" : "UI_End_Btn_Return",
+   "Sort Idx" : -1
+}

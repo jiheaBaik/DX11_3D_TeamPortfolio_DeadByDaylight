@@ -1,0 +1,446 @@
+{
+   "Lists" : [
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 0,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 21.600000381469727,
+               "y" : -137.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 36.0,
+               "y" : 20.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_play_hud_com_cancle"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 1,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 60.000003814697266,
+               "y" : -137.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 118.0,
+               "y" : 21.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_play_hud_com_parkour"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 2,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 20.400001525878906,
+               "y" : -137.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 34.0,
+               "y" : 20.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_play_hud_sla_find"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 3,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 35.0,
+               "y" : 20.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_play_hud_sla_pa"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 4,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 37.0,
+               "y" : 19.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_play_hud_sla_son"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 5,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 52.0,
+               "y" : 20.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_play_hud_sla_hang"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 6,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 35.0,
+               "y" : 20.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_play_hud_sla_lift"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 7,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 34.0,
+               "y" : 20.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_play_hud_sla_close"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 8,
+         "IsCollider" : false,
+         "IsRender" : false,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 36.0,
+               "y" : 20.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_play_hud_sla_kill"
+      },
+      {
+         "Color" : {
+            "w" : 1.0,
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "Depth" : 9,
+         "IsCollider" : false,
+         "IsRender" : true,
+         "Pass" : 1,
+         "RectTransform" : {
+            "Anchor" : {
+               "x" : 0.5,
+               "y" : 1.0
+            },
+            "Pivot" : {
+               "x" : 0.5,
+               "y" : 0.5
+            },
+            "Position" : {
+               "x" : 56.400001525878906,
+               "y" : -137.0,
+               "z" : 0.0
+            },
+            "Rotation" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "Scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "SclByParent" : true,
+            "Size" : {
+               "x" : 94.0,
+               "y" : 20.0
+            }
+         },
+         "ScaleOfTex" : true,
+         "Texture" : "Texture_play_hud_huntress"
+      }
+   ],
+   "Name" : "UI_Play_Icon_Hud",
+   "Sort Idx" : -1
+}
