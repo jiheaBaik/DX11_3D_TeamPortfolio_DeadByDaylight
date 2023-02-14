@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{cb38bd1e-4319-4208-aea6-2567637156e1}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;JSON_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\Default\;..\Public\;..\..\Reference\Header\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\Reference\Library\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTKd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;JSON_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\Default\;..\Public\;..\..\Reference\Header\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\Reference\Library\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTK.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Bin\Shader\Shader_Define.hlsli" />
+    <ClInclude Include="..\Public\Asset.h" />
+    <ClInclude Include="..\Public\Camera_Edit.h" />
+    <ClInclude Include="..\Public\Camera_Ending.h" />
+    <ClInclude Include="..\Public\Camera_Lobby.h" />
+    <ClInclude Include="..\Public\Animator.h" />
+    <ClInclude Include="..\Public\Camera_Camper.h" />
+    <ClInclude Include="..\Public\Camera_Reflect.h" />
+    <ClInclude Include="..\Public\Camera_Slasher.h" />
+    <ClInclude Include="..\Public\Camera_Spectator.h" />
+    <ClInclude Include="..\Public\Camper_Lobby.h" />
+    <ClInclude Include="..\Public\Camper_Lobby_Sit.h" />
+    <ClInclude Include="..\Public\Client_Define.h" />
+    <ClInclude Include="..\Public\Client_Macro.h" />
+    <ClInclude Include="..\Public\Collid.h" />
+    <ClInclude Include="..\Public\Cube.h" />
+    <ClInclude Include="..\Public\Cube_Free.h" />
+    <ClInclude Include="..\Public\Distor.h" />
+    <ClInclude Include="..\Public\Effect_BloodStain.h" />
+    <ClInclude Include="..\Public\Effect_Blood_Free.h" />
+    <ClInclude Include="..\Public\Effect_CamBlood_Free.h" />
+    <ClInclude Include="..\Public\Effect_CamperHookDeath.h" />
+    <ClInclude Include="..\Public\Effect_Camper_Lobby.h" />
+    <ClInclude Include="..\Public\Effect_DrumFire.h" />
+    <ClInclude Include="..\Public\Effect_DrumFireEtc.h" />
+    <ClInclude Include="..\Public\Effect_FallingLeaf.h" />
+    <ClInclude Include="..\Public\Effect_FlashLight.h" />
+    <ClInclude Include="..\Public\Effect_Fog.h" />
+    <ClInclude Include="..\Public\Effect_Free3.h" />
+    <ClInclude Include="..\Public\Effect_Hatch.h" />
+    <ClInclude Include="..\Public\Effect_HookSmoke.h" />
+    <ClInclude Include="..\Public\Effect_LobbyCampFireZ.h" />
+    <ClInclude Include="..\Public\Effect_LobbyCampFireSmoke.h" />
+    <ClInclude Include="..\Public\Effect_LobbyCampFireSpark.h" />
+    <ClInclude Include="..\Public\Effect_LogoParticle.h" />
+    <ClInclude Include="..\Public\Ending_Camper.h" />
+    <ClInclude Include="..\Public\Ending_Grass.h" />
+    <ClInclude Include="..\Public\Ending_Ground.h" />
+    <ClInclude Include="..\Public\Ending_PlayerPos.h" />
+    <ClInclude Include="..\Public\Ending_Slasher.h" />
+    <ClInclude Include="..\Public\Ending_Spon.h" />
+    <ClInclude Include="..\Public\FS_Camper_BeingHealed.h" />
+    <ClInclude Include="..\Public\FS_Camper_BeingHealed_Craw.h" />
+    <ClInclude Include="..\Public\FS_Camper_Carry_Idle.h" />
+    <ClInclude Include="..\Public\FS_Camper_Carry_Wiggle.h" />
+    <ClInclude Include="..\Public\FS_Camper_Chest_In.h" />
+    <ClInclude Include="..\Public\FS_Camper_Chest_Loop.h" />
+    <ClInclude Include="..\Public\FS_Camper_Chest_Open.h" />
+    <ClInclude Include="..\Public\FS_Camper_Chest_Out.h" />
+    <ClInclude Include="..\Public\FS_Camper_Chest_PickIn.h" />
+    <ClInclude Include="..\Public\FS_Camper_Chest_PickOut.h" />
+    <ClInclude Include="..\Public\FS_Camper_Closet_Entering.h" />
+    <ClInclude Include="..\Public\FS_Camper_Closet_FullSwing.h" />
+    <ClInclude Include="..\Public\FS_Camper_Closet_Grap.h" />
+    <ClInclude Include="..\Public\FS_Camper_Closet_Hide.h" />
+    <ClInclude Include="..\Public\FS_Camper_Closet_Hide2.h" />
+    <ClInclude Include="..\Public\FS_Camper_Closet_Idle.h" />
+    <ClInclude Include="..\Public\FS_Camper_Closet_UnHide.h" />
+    <ClInclude Include="..\Public\FS_Camper_Commu.h" />
+    <ClInclude Include="..\Public\FS_Camper_CrawIdle.h" />
+    <ClInclude Include="..\Public\FS_Camper_CrawWalk.h" />
+    <ClInclude Include="..\Public\FS_Camper_Drop.h" />
+    <ClInclude Include="..\Public\FS_Camper_EndGame.h" />
+    <ClInclude Include="..\Public\FS_Camper_Ending.h" />
+    <ClInclude Include="..\Public\FS_Camper_ExitDoor_In.h" />
+    <ClInclude Include="..\Public\FS_Camper_ExitDoor_Loop.h" />
+    <ClInclude Include="..\Public\FS_Camper_Fall.h" />
+    <ClInclude Include="..\Public\FS_Camper_FlashLight.h" />
+    <ClInclude Include="..\Public\FS_Camper_Generator.h" />
+    <ClInclude Include="..\Public\FS_Camper_GeneratorFaile.h" />
+    <ClInclude Include="..\Public\FS_Camper_Generator_Grab.h" />
+    <ClInclude Include="..\Public\FS_Camper_Generator_Grab_In.h" />
+    <ClInclude Include="..\Public\FS_Camper_HealCamper_Craw.h" />
+    <ClInclude Include="..\Public\FS_Camper_Parkour_Grab.h" />
+    <ClInclude Include="..\Public\FS_Camper_Parkour_Grab_B_In.h" />
+    <ClInclude Include="..\Public\FS_Camper_Parkour_Grab_B.h" />
+    <ClInclude Include="..\Public\FS_Camper_Parkour_Grab_In.h" />
+    <ClInclude Include="..\Public\FS_Camper_TotemIn.h" />
+    <ClInclude Include="..\Public\FS_Camper_Hatch.h" />
+    <ClInclude Include="..\Public\FS_Camper_HatchOut.h" />
+    <ClInclude Include="..\Public\FS_Camper_HealCamper.h" />
+    <ClInclude Include="..\Public\FS_Camper_HealingSelf.h" />
+    <ClInclude Include="..\Public\FS_Camper_Hit.h" />
+    <ClInclude Include="..\Public\FS_Camper_HitIdle.h" />
+    <ClInclude Include="..\Public\FS_Camper_Hit_Craw.h" />
+    <ClInclude Include="..\Public\FS_Camper_HookBeeingRescuedEnd.h" />
+    <ClInclude Include="..\Public\FS_Camper_HookBeeingRescuedIn.h" />
+    <ClInclude Include="..\Public\FS_Camper_HookFree.h" />
+    <ClInclude Include="..\Public\FS_Camper_HookIdle.h" />
+    <ClInclude Include="..\Public\FS_Camper_HookIdle2.h" />
+    <ClInclude Include="..\Public\FS_Camper_HookIn.h" />
+    <ClInclude Include="..\Public\FS_Camper_HookOut.h" />
+    <ClInclude Include="..\Public\FS_Camper_HookRescueEnd.h" />
+    <ClInclude Include="..\Public\FS_Camper_HookRescueIn.h" />
+    <ClInclude Include="..\Public\FS_Camper_HookStruggle.h" />
+    <ClInclude Include="..\Public\FS_Camper_Hook_Death.h" />
+    <ClInclude Include="..\Public\FS_Camper_Idle.h" />
+    <ClInclude Include="..\Public\FS_Camper_Mori.h" />
+    <ClInclude Include="..\Public\FS_Camper_ParkourVault_Jump.h" />
+    <ClInclude Include="..\Public\FS_Camper_Pick1.h" />
+    <ClInclude Include="..\Public\FS_Camper_Pick2.h" />
+    <ClInclude Include="..\Public\FS_Camper_plank.h" />
+    <ClInclude Include="..\Public\FS_Camper_Run.h" />
+    <ClInclude Include="..\Public\FS_Camper_Sit.h" />
+    <ClInclude Include="..\Public\FS_Camper_Spider_IN.h" />
+    <ClInclude Include="..\Public\FS_Camper_Spider_KillIn.h" />
+    <ClInclude Include="..\Public\FS_Camper_Spider_KillLoop.h" />
+    <ClInclude Include="..\Public\FS_Camper_Spider_KillOut.h" />
+    <ClInclude Include="..\Public\FS_Camper_Spider_Loop.h" />
+    <ClInclude Include="..\Public\FS_Camper_Spider_Out.h" />
+    <ClInclude Include="..\Public\FS_Camper_Spider_Struggle.h" />
+    <ClInclude Include="..\Public\FS_Camper_StunDrop.h" />
+    <ClInclude Include="..\Public\FS_Camper_TotemLoop.h" />
+    <ClInclude Include="..\Public\FS_Camper_TotemOut.h" />
+    <ClInclude Include="..\Public\FS_Camper_Walk.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Attack_Carry_In.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Attack_Carry_Out.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Attack_Carry_Swing.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Attack_Slash_In.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Attack_Slash_Miss.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Attack_Slash_Swing.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Attack_Slash_Wipe.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Destroy_Gene.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Destroy_Hatch.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Destroy_Plank.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Destroy_Totem.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Drop.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Grab_Gene.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Grab_Gene_In.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Grab_Parkour_BK.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Grab_Parkour_BK_In.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Grab_Parkour_FT.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Grab_Parkour_FT_In.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Hook.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Idle_Carry.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Idle_Hunt.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Idle_Intro.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Idle_Slash.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Idle_Spirit.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Locker_Grab.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Locker_Reload.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Locker_Search.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Mori.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Parkour.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Parkour_Vault.h" />
+    <ClInclude Include="..\Public\FS_Slasher_PickUp.h" />
+    <ClInclude Include="..\Public\FS_Slasher_PickUp_In.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Run_Carry.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Run_Hunt.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Run_Slash.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Run_Spirit.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Spirit_Charge.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Spirit_Out.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Stun.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Stun_Drop_In.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Stun_Drop_Out.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Stun_Flash.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Stun_Flash_In.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Stun_Flash_Out.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Stun_Locker.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Throw_CoolDown.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Throw_In.h" />
+    <ClInclude Include="..\Public\FS_Slasher_Throw_Swing.h" />
+    <ClInclude Include="..\Public\GTest.h" />
+    <ClInclude Include="..\Public\Info.h" />
+    <ClInclude Include="..\Public\Inter_Crow_Lobby.h" />
+    <ClInclude Include="..\Public\Inter_EndGame.h" />
+    <ClInclude Include="..\Public\Inter_Exit.h" />
+    <ClInclude Include="..\Public\Inter_ExitDoor.h" />
+    <ClInclude Include="..\Public\Inter_Hook.h" />
+    <ClInclude Include="..\Public\Inter_Parkour.h" />
+    <ClInclude Include="..\Public\Inter_Parkour_Vault.h" />
+    <ClInclude Include="..\Public\Inter_Totem.h" />
+    <ClInclude Include="..\Public\Inven.h" />
+    <ClInclude Include="..\Public\Light_Flash.h" />
+    <ClInclude Include="..\Public\Light_Generator.h" />
+    <ClInclude Include="..\Public\Light_GeneratorFail.h" />
+    <ClInclude Include="..\Public\Metal.h" />
+    <ClInclude Include="..\Public\Perk.h" />
+    <ClInclude Include="..\Public\Prop_Corn.h" />
+    <ClInclude Include="..\Public\Prop_Grass.h" />
+    <ClInclude Include="..\Public\Prop_Grass2.h" />
+    <ClInclude Include="..\Public\Prop_Grass3.h" />
+    <ClInclude Include="..\Public\Prop_Grass4.h" />
+    <ClInclude Include="..\Public\Prop_Grass5.h" />
+    <ClInclude Include="..\Public\Reflect.h" />
+    <ClInclude Include="..\Public\Setting_BGM.h" />
+    <ClInclude Include="..\Public\Setting_CamperPos.h" />
+    <ClInclude Include="..\Public\Skill.h" />
+    <ClInclude Include="..\Public\Light_Free_NoSave.h" />
+    <ClInclude Include="..\Public\Light_Lobby.h" />
+    <ClInclude Include="..\Public\Light_Police.h" />
+    <ClInclude Include="..\Public\Light_Slasher_Eye.h" />
+    <ClInclude Include="..\Public\Post.h" />
+    <ClInclude Include="..\Public\Prop_EscapeBlocker.h" />
+    <ClInclude Include="..\Public\Prop_GamePlay.h" />
+    <ClInclude Include="..\Public\Prop_Lobby.h" />
+    <ClInclude Include="..\Public\Prop_Lobby_PoliceCar.h" />
+    <ClInclude Include="..\Public\Scene_GamePlay.h" />
+    <ClInclude Include="..\Public\Scene_Lobby.h" />
+    <ClInclude Include="..\Public\Setting_CamperSlot.h" />
+    <ClInclude Include="..\Public\Shadow.h" />
+    <ClInclude Include="..\Public\Sky.h" />
+    <ClInclude Include="..\Public\Slasher_Huntress_Lobby.h" />
+    <ClInclude Include="..\Public\Slasher_FPV_Trail.h" />
+    <ClInclude Include="..\Public\Slasher_Spirit_FPV_Trail.h" />
+    <ClInclude Include="..\Public\Slasher_Spirit_Lobby.h" />
+    <ClInclude Include="..\Public\Slasher_Spirit_Trail.h" />
+    <ClInclude Include="..\Public\Slasher_Trail.h" />
+    <ClInclude Include="..\Public\Terrain.h" />
+    <ClInclude Include="..\Public\Scene_Logo.h" />
+    <ClInclude Include="..\Public\Dock.h" />
+    <ClInclude Include="..\Public\FM_Camper.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\FM_Slasher.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\FS.h" />
+    <ClInclude Include="..\Public\Effect_Edit.h" />
+    <ClInclude Include="..\Public\Effect_Model.h" />
+    <ClInclude Include="..\Public\Effect_Texture.h" />
+    <ClInclude Include="..\Public\Hierarchy.h" />
+    <ClInclude Include="..\Public\Inspector.h" />
+    <ClInclude Include="..\Public\Inter_Crow_Wander.h" />
+    <ClInclude Include="..\Public\Inter_PlankBroken.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Inter_ChestBox.h" />
+    <ClInclude Include="..\Public\Inter_Locker.h" />
+    <ClInclude Include="..\Public\Inter_Crow.h" />
+    <ClInclude Include="..\Public\Inter_Generator.h" />
+    <ClInclude Include="..\Public\Inter_Hatch.h" />
+    <ClInclude Include="..\Public\Inter_PlankAnim.h" />
+    <ClInclude Include="..\Public\Inter_Rat.h" />
+    <ClInclude Include="..\Public\Light_Free.h" />
+    <ClInclude Include="..\Public\NavMesh.h" />
+    <ClInclude Include="..\Public\Game_Main.h" />
+    <ClInclude Include="..\Public\Loader.h" />
+    <ClInclude Include="..\Public\Loading.h" />
+    <ClInclude Include="..\Public\Camper_GamePlay.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Slasher_Huntress.h" />
+    <ClInclude Include="..\Public\Throw_Trail.h" />
+    <ClInclude Include="..\Public\Trail.h" />
+    <ClInclude Include="..\Public\UI_End_Btn_Return.h" />
+    <ClInclude Include="..\Public\UI_End_Panel_First.h" />
+    <ClInclude Include="..\Public\UI_End_Panel_FX.h" />
+    <ClInclude Include="..\Public\UI_End_Panel_Second.h" />
+    <ClInclude Include="..\Public\UI_Image.h" />
+    <ClInclude Include="..\Public\UI_Loading_Back.h" />
+    <ClInclude Include="..\Public\UI_Loading_Bone.h" />
+    <ClInclude Include="..\Public\UI_Loading_Bone2.h" />
+    <ClInclude Include="..\Public\UI_Loading_Icon_Circle.h" />
+    <ClInclude Include="..\Public\UI_Loading_ToPlay_Camper.h" />
+    <ClInclude Include="..\Public\UI_Loading_ToPlay_Slasher.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Panel_Camper_Choice.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Btn_Camper_Menu.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Btn_Exit.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Panel_Explain.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Btn_Ready.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Btn_Select_Role.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Btn_Setting.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Panel_Slasher_Choice.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Btn_Slasher_Menu.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Btn_Select_To_Start.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Icon_Ready_Camper.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Icon_Ready_Back.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Icon_Ready_Bone.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Panel_Camper.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Panel_Exit.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Panel_First.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Panel_Loadout.h" />
+    <ClInclude Include="..\Public\UI_Lobby_Panel_Slasher.h" />
+    <ClInclude Include="..\Public\UI_Logo_Text.h" />
+    <ClInclude Include="..\Public\UI_Play_Icon_SkillCheck.h" />
+    <ClInclude Include="..\Public\UI_Logo_Back.h" />
+    <ClInclude Include="..\Public\UI_Logo_BackSmoke.h" />
+    <ClInclude Include="..\Public\UI_Logo_BackSmoke2.h" />
+    <ClInclude Include="..\Public\UI_Logo_Logo.h" />
+    <ClInclude Include="..\Public\UI_Logo_Smoke.h" />
+    <ClInclude Include="..\Public\UI_Logo_Smoke2.h" />
+    <ClInclude Include="..\Public\UI_Logo_Smoke3.h" />
+    <ClInclude Include="..\Public\UI_Logo_Smoke4.h" />
+    <ClInclude Include="..\Public\UI_Logo_Smoke5.h" />
+    <ClInclude Include="..\Public\UI_Logo_Title.h" />
+    <ClInclude Include="..\Public\UI_Logo_Under.h" />
+    <ClInclude Include="..\Public\UI_Play_Icon_Propile.h" />
+    <ClInclude Include="..\Public\UI_Play_Icon_Hud.h" />
+    <ClInclude Include="..\Public\UI_Play_Icon_Passive.h" />
+    <ClInclude Include="..\Public\UI_Play_Icon_Perk.h" />
+    <ClInclude Include="..\Public\UI_Play_Panel_First.h" />
+    <ClInclude Include="..\Public\UI_Play_Panel_Manager.h" />
+    <ClInclude Include="..\Public\UI_Play_Panel_Second.h" />
+    <ClInclude Include="..\Public\UI_Play_Gauge_Exit.h" />
+    <ClInclude Include="..\Public\UI_Play_Gauge_Inter.h" />
+    <ClInclude Include="..\Public\UI_Play_Score.h" />
+    <ClInclude Include="..\Public\View.h" />
+    <ClInclude Include="..\Public\Weapon_Hunt.h" />
+    <ClInclude Include="..\Public\Weapon_Hunt_Lobby.h" />
+    <ClInclude Include="..\Public\Weapon_Slash.h" />
+    <ClInclude Include="..\Public\Weapon_Slash_Lobby.h" />
+    <ClInclude Include="..\Public\Weapon_Spirit.h" />
+    <ClInclude Include="..\Public\Weapon_Spirit_Hand.h" />
+    <ClInclude Include="..\Public\Weapon_Spirit_Hand_Lobby.h" />
+    <ClInclude Include="..\Public\Weapon_Spirit_Lobby.h" />
+    <ClInclude Include="..\Public\Weapon_Throw.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Client_Function.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\Asset.cpp" />
+    <ClCompile Include="..\Private\Camera_Edit.cpp" />
+    <ClCompile Include="..\Private\Camera_Ending.cpp" />
+    <ClCompile Include="..\Private\Camera_Lobby.cpp" />
+    <ClCompile Include="..\Private\Animator.cpp" />
+    <ClCompile Include="..\Private\Camera_Camper.cpp" />
+    <ClCompile Include="..\Private\Camera_Reflect.cpp" />
+    <ClCompile Include="..\Private\Camera_Slasher.cpp" />
+    <ClCompile Include="..\Private\Camera_Spectator.cpp" />
+    <ClCompile Include="..\Private\Camper_Lobby.cpp" />
+    <ClCompile Include="..\Private\Camper_Lobby_Sit.cpp" />
+    <ClCompile Include="..\Private\Collid.cpp" />
+    <ClCompile Include="..\Private\Cube.cpp" />
+    <ClCompile Include="..\Private\Cube_Free.cpp" />
+    <ClCompile Include="..\Private\Distor.cpp" />
+    <ClCompile Include="..\Private\Effect_BloodStain.cpp" />
+    <ClCompile Include="..\Private\Effect_Blood_Free.cpp" />
+    <ClCompile Include="..\Private\Effect_CamBlood_Free.cpp" />
+    <ClCompile Include="..\Private\Effect_CamperHookDeath.cpp" />
+    <ClCompile Include="..\Private\Effect_Camper_Lobby.cpp" />
+    <ClCompile Include="..\Private\Effect_DrumFire.cpp" />
+    <ClCompile Include="..\Private\Effect_DrumFireEtc.cpp" />
+    <ClCompile Include="..\Private\Effect_FallingLeaf.cpp" />
+    <ClCompile Include="..\Private\Effect_FlashLight.cpp" />
+    <ClCompile Include="..\Private\Effect_Fog.cpp" />
+    <ClCompile Include="..\Private\Effect_Free3.cpp" />
+    <ClCompile Include="..\Private\Effect_Hatch.cpp" />
+    <ClCompile Include="..\Private\Effect_HookSmoke.cpp" />
+    <ClCompile Include="..\Private\Effect_LobbyCampFireZ.cpp" />
+    <ClCompile Include="..\Private\Effect_LobbyCampFireSmoke.cpp" />
+    <ClCompile Include="..\Private\Effect_LobbyCampFireSpark.cpp" />
+    <ClCompile Include="..\Private\Effect_LogoParticle.cpp" />
+    <ClCompile Include="..\Private\Ending_Camper.cpp" />
+    <ClCompile Include="..\Private\Ending_Grass.cpp" />
+    <ClCompile Include="..\Private\Ending_Ground.cpp" />
+    <ClCompile Include="..\Private\Ending_PlayerPos.cpp" />
+    <ClCompile Include="..\Private\Ending_Slasher.cpp" />
+    <ClCompile Include="..\Private\Ending_Spon.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_BeingHealed.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_BeingHealed_Craw.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Carry_Idle.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Carry_Wiggle.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Chest_In.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Chest_Loop.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Chest_Open.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Chest_Out.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Chest_PickIn.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Chest_PickOut.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Closet_Entering.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Closet_FullSwing.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Closet_Grap.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Closet_Hide.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Closet_Hide2.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Closet_Idle.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Closet_UnHide.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Commu.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_CrawIdle.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_CrawWalk.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Drop.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_EndGame.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Ending.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_ExitDoor_In.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_ExitDoor_Loop.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Fall.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_FlashLight.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Generator.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_GeneratorFaile.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Generator_Grab.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Generator_Grab_In.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HealCamper_Craw.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Parkour_Grab.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Parkour_Grab_B.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Parkour_Grab_B_In.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Parkour_Grab_In.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_TotemIn.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Hatch.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HatchOut.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HealCamper.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HealingSelf.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Hit.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HitIdle.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Hit_Craw.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HookBeeingRescuedEnd.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HookBeeingRescuedIn.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HookFree.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HooKIdle.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HooKIdle2.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HookIn.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HookOut.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HookRescueEnd.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HookRescueIn.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_HookStruggle.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Hook_Death.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Idle.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Mori.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_ParkourVault_Jump.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Pick1.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Pick2.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_plank.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Run.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Sit.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Spider_IN.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Spider_KillIn.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Spider_KillLoop.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Spider_KillOut.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Spider_Loop.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Spider_Out.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Spider_Struggle.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_StunDrop.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_TotemLoop.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_TotemOut.cpp" />
+    <ClCompile Include="..\Private\FS_Camper_Walk.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Attack_Carry_In.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Attack_Carry_Out.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Attack_Carry_Swing.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Attack_Slash_In.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Attack_Slash_Miss.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Attack_Slash_Swing.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Attack_Slash_Wipe.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Destroy_Gene.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Destroy_Hatch.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Destroy_Plank.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Destroy_Totem.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Drop.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Grab_Gene.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Grab_Gene_In.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Grab_Parkour_BK.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Grab_Parkour_BK_In.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Grab_Parkour_FT.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Grab_Parkour_FT_In.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Hook.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Idle_Carry.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Idle_Hunt.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Idle_Intro.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Idle_Slash.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Idle_Spirit.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Locker_Grab.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Locker_Reload.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Locker_Search.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Mori.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Parkour.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Parkour_Vault.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_PickUp.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_PickUp_In.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Run_Carry.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Run_Hunt.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Run_Slash.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Run_Spirit.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Spirit_Charge.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Spirit_Out.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Stun.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Stun_Drop_In.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Stun_Drop_Out.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Stun_Flash.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Stun_Flash_In.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Stun_Flash_Out.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Stun_Locker.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Throw_CoolDown.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Throw_In.cpp" />
+    <ClCompile Include="..\Private\FS_Slasher_Throw_Swing.cpp" />
+    <ClCompile Include="..\Private\GTest.cpp" />
+    <ClCompile Include="..\Private\Info.cpp" />
+    <ClCompile Include="..\Private\Inter_Crow_Lobby.cpp" />
+    <ClCompile Include="..\Private\Inter_EndGame.cpp" />
+    <ClCompile Include="..\Private\Inter_Exit.cpp" />
+    <ClCompile Include="..\Private\Inter_ExitDoor.cpp" />
+    <ClCompile Include="..\Private\Inter_Generator.cpp" />
+    <ClCompile Include="..\Private\Inter_Hook.cpp" />
+    <ClCompile Include="..\Private\Inter_Parkour.cpp" />
+    <ClCompile Include="..\Private\Inter_Parkour_Vault.cpp" />
+    <ClCompile Include="..\Private\Inter_Totem.cpp" />
+    <ClCompile Include="..\Private\Inven.cpp" />
+    <ClCompile Include="..\Private\Light_Flash.cpp" />
+    <ClCompile Include="..\Private\Light_Generator.cpp" />
+    <ClCompile Include="..\Private\Light_GeneratorFail.cpp" />
+    <ClCompile Include="..\Private\Metal.cpp" />
+    <ClCompile Include="..\Private\Perk.cpp" />
+    <ClCompile Include="..\Private\Prop_Corn.cpp" />
+    <ClCompile Include="..\Private\Prop_Grass.cpp" />
+    <ClCompile Include="..\Private\Prop_Grass2.cpp" />
+    <ClCompile Include="..\Private\Prop_Grass3.cpp" />
+    <ClCompile Include="..\Private\Prop_Grass4.cpp" />
+    <ClCompile Include="..\Private\Prop_Grass5.cpp" />
+    <ClCompile Include="..\Private\Reflect.cpp" />
+    <ClCompile Include="..\Private\Setting_BGM.cpp" />
+    <ClCompile Include="..\Private\Setting_CamperPos.cpp" />
+    <ClCompile Include="..\Private\Skill.cpp" />
+    <ClCompile Include="..\Private\Light_Free_NoSave.cpp" />
+    <ClCompile Include="..\Private\Light_Lobby.cpp" />
+    <ClCompile Include="..\Private\Light_Police.cpp" />
+    <ClCompile Include="..\Private\Light_Slasher_Eye.cpp" />
+    <ClCompile Include="..\Private\Post.cpp" />
+    <ClCompile Include="..\Private\Prop_EscapeBlocker.cpp" />
+    <ClCompile Include="..\Private\Prop_GamePlay.cpp" />
+    <ClCompile Include="..\Private\Prop_Lobby.cpp" />
+    <ClCompile Include="..\Private\Prop_Lobby_PoliceCar.cpp" />
+    <ClCompile Include="..\Private\Scene_GamePlay.cpp" />
+    <ClCompile Include="..\Private\Scene_Lobby.cpp" />
+    <ClCompile Include="..\Private\Setting_CamperSlot.cpp" />
+    <ClCompile Include="..\Private\Shadow.cpp" />
+    <ClCompile Include="..\Private\Sky.cpp" />
+    <ClCompile Include="..\Private\Slasher_Huntress_Lobby.cpp" />
+    <ClCompile Include="..\Private\Slasher_FPV_Trail.cpp" />
+    <ClCompile Include="..\Private\Slasher_Spirit_FPV_Trail.cpp" />
+    <ClCompile Include="..\Private\Slasher_Spirit_Lobby.cpp" />
+    <ClCompile Include="..\Private\Slasher_Spirit_Trail.cpp" />
+    <ClCompile Include="..\Private\Slasher_Trail.cpp" />
+    <ClCompile Include="..\Private\Terrain.cpp" />
+    <ClCompile Include="..\Private\Scene_Logo.cpp" />
+    <ClCompile Include="..\Private\Dock.cpp" />
+    <ClCompile Include="..\Private\FM_Camper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\FM_Slasher.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\FS.cpp" />
+    <ClCompile Include="..\Private\Effect_Edit.cpp" />
+    <ClCompile Include="..\Private\Effect_Model.cpp" />
+    <ClCompile Include="..\Private\Effect_Texture.cpp" />
+    <ClCompile Include="..\Private\Hierarchy.cpp" />
+    <ClCompile Include="..\Private\Inspector.cpp" />
+    <ClCompile Include="..\Private\Inter_Crow_Wander.cpp" />
+    <ClCompile Include="..\Private\Inter_PlankBroken.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Inter_ChestBox.cpp" />
+    <ClCompile Include="..\Private\Inter_Locker.cpp" />
+    <ClCompile Include="..\Private\Inter_Crow.cpp" />
+    <ClCompile Include="..\Private\Inter_Hatch.cpp" />
+    <ClCompile Include="..\Private\Inter_PlankAnim.cpp" />
+    <ClCompile Include="..\Private\Inter_Rat.cpp" />
+    <ClCompile Include="..\Private\Light_Free.cpp" />
+    <ClCompile Include="..\Private\NavMesh.cpp" />
+    <ClCompile Include="..\Private\Game_Main.cpp" />
+    <ClCompile Include="..\Private\Loader.cpp" />
+    <ClCompile Include="..\Private\Loading.cpp" />
+    <ClCompile Include="..\Private\Camper_GamePlay.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Slasher_Huntress.cpp" />
+    <ClCompile Include="..\Private\Throw_Trail.cpp" />
+    <ClCompile Include="..\Private\Trail.cpp" />
+    <ClCompile Include="..\Private\UI_End_Btn_Return.cpp" />
+    <ClCompile Include="..\Private\UI_End_Panel_Second.cpp" />
+    <ClCompile Include="..\Private\UI_End_Panel_First.cpp" />
+    <ClCompile Include="..\Private\UI_End_Panel_FX.cpp" />
+    <ClCompile Include="..\Private\UI_Image.cpp" />
+    <ClCompile Include="..\Private\UI_Loading_Back.cpp" />
+    <ClCompile Include="..\Private\UI_Loading_Bone.cpp" />
+    <ClCompile Include="..\Private\UI_Loading_Bone2.cpp" />
+    <ClCompile Include="..\Private\UI_Loading_Icon_Circle.cpp" />
+    <ClCompile Include="..\Private\UI_Loading_ToPlay_Camper.cpp" />
+    <ClCompile Include="..\Private\UI_Loading_ToPlay_Slasher.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Panel_Camper_Choice.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Btn_Camper_Menu.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Btn_Exit.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Panel_Explain.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Btn_Ready.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Btn_Select_Role.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Btn_Setting.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Panel_Slasher_Choice.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Btn_Slasher_Menu.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Btn_Select_To_Start.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Icon_Ready_Camper.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Icon_Ready_Back.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Icon_Ready_Bone.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Panel_Camper.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Panel_Exit.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Panel_First.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Panel_Loadout.cpp" />
+    <ClCompile Include="..\Private\UI_Lobby_Panel_Slasher.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_Back.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_BackSmoke.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_BackSmoke2.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_Logo.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_Smoke.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_Smoke2.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_Smoke3.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_Smoke4.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_Smoke5.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_Text.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_Title.cpp" />
+    <ClCompile Include="..\Private\UI_Logo_Under.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Icon_Propile.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Icon_SkillCheck.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Icon_Hud.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Icon_Passive.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Icon_Perk.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Panel_First.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Panel_Manager.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Panel_Second.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Gauge_Exit.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Gauge_Inter.cpp" />
+    <ClCompile Include="..\Private\UI_Play_Score.cpp" />
+    <ClCompile Include="..\Private\View.cpp" />
+    <ClCompile Include="..\Private\Weapon_Hunt.cpp" />
+    <ClCompile Include="..\Private\Weapon_Hunt_Lobby.cpp" />
+    <ClCompile Include="..\Private\Weapon_Slash.cpp" />
+    <ClCompile Include="..\Private\Weapon_Slash_Lobby.cpp" />
+    <ClCompile Include="..\Private\Weapon_Spirit.cpp" />
+    <ClCompile Include="..\Private\Weapon_Spirit_Hand.cpp" />
+    <ClCompile Include="..\Private\Weapon_Spirit_Hand_Lobby.cpp" />
+    <ClCompile Include="..\Private\Weapon_Spirit_Lobby.cpp" />
+    <ClCompile Include="..\Private\Weapon_Throw.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\Shader\Effect.hlsl" />
+    <FxCompile Include="..\Bin\Shader\ModelInst.hlsl" />
+    <FxCompile Include="..\Bin\Shader\TexCube.hlsl" />
+    <FxCompile Include="..\Bin\Shader\Model.hlsl" />
+    <FxCompile Include="..\Bin\Shader\TexNor.hlsl" />
+    <FxCompile Include="..\Bin\Shader\Tex.hlsl" />
+    <FxCompile Include="..\Bin\Shader\ModelAnim.hlsl" />
+    <FxCompile Include="..\Bin\Shader\UI.hlsl" />
+    <FxCompile Include="..\Bin\Shader\ModelEffect.hlsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
