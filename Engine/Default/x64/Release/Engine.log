@@ -1,0 +1,173 @@
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Back.hlsl(48,17-34): warning X3206: 'ToneMapping': implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Back.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Blend.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Bloom.hlsl(14,15-37): warning X3206: 'dot': implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Bloom.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Blur.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Cell.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Deferred.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Distortion.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DOF.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Fog.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Glow.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\GodRay.hlsl(42,9-68): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\GodRay.hlsl(46,10-67): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\GodRay.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\HDR.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\HSBC.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(41,8-31): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(85,9-50): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(86,9-52): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(87,9-53): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(91,38-110): warning X3206: 'OrenNayar': implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(91,38-110): warning X3206: 'OrenNayar': implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(100,10-18): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(101,10-20): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(151,9-50): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(152,9-52): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(155,38-108): warning X3206: 'OrenNayar': implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(155,38-108): warning X3206: 'OrenNayar': implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(155,38-108): warning X3206: 'OrenNayar': implicit truncation of vector type
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Light.cso
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(164,10-18): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(165,10-20): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(166,10-34): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(217,9-50): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(218,9-52): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(221,38-108): warning X3206: 'OrenNayar': implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(221,38-108): warning X3206: 'OrenNayar': implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(221,38-108): warning X3206: 'OrenNayar': implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(230,10-18): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(231,10-20): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\Light.hlsl(232,10-34): warning X3206: implicit truncation of vector type
+  
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Light1.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\LumaSharpen.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\MotionBlur.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\SSAO.hlsl(46,16-21): warning X3206: implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\SSAO.hlsl(68,9-53): warning X3206: 'doAmbientOcclusion': implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\SSAO.hlsl(69,9-52): warning X3206: 'doAmbientOcclusion': implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\SSAO.hlsl(70,9-53): warning X3206: 'doAmbientOcclusion': implicit truncation of vector type
+C:\Users\USER\Desktop\�����ڵ�\jusin-directx3d-team\Engine\Bin\Shader\SSAO.hlsl(71,9-46): warning X3206: 'doAmbientOcclusion': implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\SSAO.cso
+  Anim.cpp
+  Audio.cpp
+  Base.cpp
+  Buffer_Trail.cpp
+  Camera.cpp
+  Cell.cpp
+  Channel.cpp
+  Collider.cpp
+  Component.cpp
+  Component_Mgr.cpp
+  Buffer_Cube.cpp
+  Compute.cpp
+  Effect.cpp
+  Enviro.cpp
+  Font.cpp
+  Font_Mgr.cpp
+  Fragment.cpp
+  Frustum.cpp
+  Model.cpp
+  Network.cpp
+  컴파일하고 있습니다...
+  RectTransform.cpp
+  Target.cpp
+  Target_Mgr.cpp
+  Triangle.cpp
+  DebugDraw.cpp
+  Edit.cpp
+  Edit_Mgr.cpp
+  Engine_Struct.cpp
+  Game_Instance.cpp
+  Buffer.cpp
+  jsoncpp.cpp
+  Navi.cpp
+  Object.cpp
+  Graphic.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  컴파일하고 있습니다...
+  imgui_widgets.cpp
+  Bone.cpp
+  Input.cpp
+  Layer.cpp
+  Light.cpp
+  Buffer_Rect.cpp
+  Buffer_Terrain.cpp
+  Mesh.cpp
+  Object_Mgr.cpp
+  Picking.cpp
+  Renderer.cpp
+  Scene.cpp
+  Scene_Mgr.cpp
+  Shader.cpp
+  Sound.cpp
+  Texture.cpp
+  Timer.cpp
+  Timer_Mgr.cpp
+  Transform.cpp
+  UI.cpp
+     ..\Bin\Engine.lib 라이브러리 및 ..\Bin\Engine.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 8809 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+Effects11.lib(EffectAPI.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectAPI.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectNonRuntime.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectNonRuntime.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectLoad.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectLoad.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(d3dxGlobal.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(d3dxGlobal.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectReflection.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectReflection.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectRuntime.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectRuntime.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(PrimitiveBatch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(PrimitiveBatch.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(VertexTypes.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(VertexTypes.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(BasicEffect.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(BasicEffect.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(SpriteBatch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(SpriteBatch.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(SpriteFont.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(SpriteFont.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(WICTextureLoader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(WICTextureLoader.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(DDSTextureLoader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(DDSTextureLoader.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(pch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(pch.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(EffectCommon.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(EffectCommon.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(BufferHelpers.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(BufferHelpers.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(CommonStates.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(CommonStates.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(BinaryReader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(BinaryReader.obj)' 또는 'C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Engine.vcxproj -> C:\Users\USER\Desktop\최종코드\jusin-directx3d-team\Engine\Bin\Engine.dll
